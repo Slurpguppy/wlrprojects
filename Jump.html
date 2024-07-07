@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link href="small.css" rel="stylesheet">
+    <link href="medium.css" rel="stylesheet">
+    <link href="large.css" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="jumpcss.css">
+
+    <nav class="clearfix">
+        <div class="row limited">
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li><a href="Calculator.html">Calculator</a></li>
+                <li class><a href="index.html">Physics Engine</a></li>
+                <li class="active"><a href="jump.html">Jump game</a></li>
+            </ul>
+        </div>
+       </nav>
+</head>
+<body>
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    <p>Score: <span id="scoreSpan"></span></p>
+</body>
+<script src="jumpscript.js"></script>
+<script src="menuToggle.js"></script>
+</html>
